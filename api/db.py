@@ -5,7 +5,7 @@ class DatabaseConnection:
 
     #connection
     conn = psycopg2.connect(
-        "dbname =levelup user =postgres password=root123 host =127.0.0.1")
+        "dbname =levelup-one user =postgres password=123 host =127.0.0.1")
 
     #connection cursor activation
     cur = conn.cursor()

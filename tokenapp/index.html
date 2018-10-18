@@ -11,27 +11,44 @@
     <div class = "main">
         <nav>
             <div class="container">
-                <li>one</li>
+                <a href="" >Home</a>
+
+                <form class="nav-form" method="GET" action="index.html">
+                    <input class = "nav-form-input" type="email" placeholder="enter your email">
+                    <input class = "nav-form-input" type="password" placeholder="password">
+                    <button class="nav-form-input-submit">Login</button>
+                </form>
             </div>
         </nav>
         <div class = "container">
-            <div class = "row">
-                <h1>Token App</h1>
-                <p>Hello welcome to my token App</p>
+            <div class = "row homepage">
                 <div class="homeCapt">
-                
+                    <div class="homeCapt-inside">
+                        <h1>Token App</h1>
+                        <p>an interface for a web app that registers people using email and name to return 
+                            a ticket number to the user</p>
+                    </div>
                 </div>
                 <div class="homeForm">
-                    <form>
-                        <input class="homeForm-input" type="text" placeholder="Enter username">
+                    <h1>Create an account here</h1>
+                    <form method="POST" action="index.html">
+                        <input class="homeForm-input" type="text" placeholder="Enter First name">
+                        <input class="homeForm-input" type="text" placeholder="Enter Last name">
                         <input class="homeForm-input" type="email" placeholder="Enter your email">
                         <input class="homeForm-input" type="password" placeholder="password">
-                        <input class="homeForm-input" type="submit">
+                        <input class="homeForm-submit-button" type="submit">
                     </form>
                 </div>
             </div>
         </div>
     </div>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <p>this is my &copy; tokenapp</p>
+            </div>
+        </div>
+    </footer>
 </body>
 <script src="main.js"></script>
 </html>
